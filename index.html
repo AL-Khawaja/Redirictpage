@@ -4,21 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- This meta refresh tag will automatically redirect the user to the specified URL after 5 seconds -->
-    <meta http-equiv="refresh" content="5;url=https://psutarchive.com/" />
-    <title>Redirecting...</title>
+    <meta name="robots" content="noindex, follow">
+    <meta name="description" content="Welcome to Marje3 Club! Redirecting you to PSUT Archive, your comprehensive resource for exams, past papers, and student notes.">
+    <link rel="canonical" href="https://marje3.club/">
+    <title>Marje3 Club - نادي مرجع</title>
     <script>
-        // This script checks if the page is being downloaded; if not, it redirects to the URL
         document.addEventListener('DOMContentLoaded', (event) => {
             if (document.readyState !== 'loading') {
-                // If the page is not being downloaded, redirect to the URL
                 window.location.href = 'https://psutarchive.com/';
             }
         });
     </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        p {
+            font-size: 18px;
+        }
+        a {
+            color: #1a0dab;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <!-- This part of the page will be displayed if the redirect doesn't happen automatically -->
-    <p>If you are not redirected automatically, please click the <a href="https://psutarchive.com/">link</a>.</p>
+    <p>If you are not redirected automatically, follow this <a href="https://psutarchive.com/">link</a> to PSUT Archive.</p>
 </body>
 </html>
